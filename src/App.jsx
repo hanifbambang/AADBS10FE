@@ -3,7 +3,7 @@ import axios from "axios";
 import "./index.css";
 
 // ─── Constants ────────────────────────────────────────────────────────────────
-const API = "/api/notes";
+const API = `${process.env.REACT_APP_API_URL}/api/notes`;
 
 const NOTE_COLORS = [
   { hex: "#FFFBEF", name: "Parchment" },
